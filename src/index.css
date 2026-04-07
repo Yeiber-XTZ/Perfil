@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Lexend", sans-serif;
+
+  --color-tertiary-fixed-dim: #f1be72;
+  --color-on-primary-fixed: #001b3d;
+  --color-on-background: #191c1d;
+  --color-surface-tint: #2e5ea2;
+  --color-surface-variant: #e1e3e4;
+  --color-surface-container-low: #f3f4f5;
+  --color-primary-fixed-dim: #a9c7ff;
+  --color-inverse-surface: #2e3132;
+  --color-error: #ba1a1a;
+  --color-on-secondary-container: #78520f;
+  --color-surface-dim: #d9dadb;
+  --color-secondary-fixed: #ffddb1;
+  --color-outline-variant: #c3c6d2;
+  --color-inverse-on-surface: #f0f1f2;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-fixed: #ffddb1;
+  --color-secondary: #7e5714;
+  --color-on-tertiary-fixed-variant: #624000;
+  --color-on-secondary-fixed-variant: #624000;
+  --color-primary-container: #0b4789;
+  --color-tertiary: #452c00;
+  --color-on-tertiary: #ffffff;
+  --color-on-surface-variant: #424750;
+  --color-on-secondary: #ffffff;
+  --color-on-primary: #ffffff;
+  --color-background: #f8f9fa;
+  --color-secondary-fixed-dim: #f1be72;
+  --color-primary: #003164;
+  --color-secondary-container: #fec97c;
+  --color-on-secondary-fixed: #291800;
+  --color-on-tertiary-fixed: #291800;
+  --color-on-primary-container: #8db7ff;
+  --color-inverse-primary: #a9c7ff;
+  --color-surface: #f8f9fa;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #d6e3ff;
+  --color-on-tertiary-container: #e0ae64;
+  --color-surface-container-high: #e7e8e9;
+  --color-outline: #737782;
+  --color-on-surface: #191c1d;
+  --color-tertiary-container: #634100;
+  --color-surface-container-highest: #e1e3e4;
+  --color-surface-container: #edeeef;
+  --color-surface-bright: #f8f9fa;
+  --color-on-error: #ffffff;
+  --color-on-primary-fixed-variant: #094688;
+  --color-error-container: #ffdad6;
+}
+
+.skew-slant { transform: skewX(-10deg); }
+.skew-slant-reverse { transform: skewX(10deg); }
+
+.kinetic-border { position: relative; }
+.kinetic-border::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #fec97c;
+}
+
